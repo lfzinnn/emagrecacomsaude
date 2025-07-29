@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método Revolucionário para Emagrecimento Definitivo</title>
+    <meta name="description" content="Descubra o segredo que ativará seu metabolismo e fará você queimar gordura naturalmente em até 30 dias!">
+    
+    <!-- Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #FF6B00;
+            --primary-dark: #E05D00;
+            --secondary: #00A896;
+            --dark: #2D3142;
+            --light: #F8F9FA;
+            --gray: #6C757D;
+            --success: #28A745;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark);
+            line-height: 1.6;
+            background-color: var(--light);
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Hero */
+        .hero {
+            background: linear-gradient(135deg, #FF6B00 0%, #FF8E00 100%);
+            color: white;
+            padding: 80px 0 60px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('images/hero-pattern.png') repeat;
+            opacity: 0.1;
+            z-index: 1;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .hero-text {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+            animation: float 6s ease-in-out infinite;
+            padding: 20px;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            max-height: 500px;
+            object-fit: contain;
+            border-radius: 10px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: var(--secondary);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 168, 150, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #008a7a;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 168, 150, 0.4);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            box-shadow: 0 4px 15px rgba(255, 107, 0, 0.3);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            box-shadow: 0 6px 20px rgba(255, 107, 0, 0.4);
+        }
+        
+        .btn-large {
+            padding: 18px 40px;
+            font-size: 1.1rem;
+        }
+        
+        /* Problema Section */
+        .problem-section {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2.5rem;
+            color: var(--dark);
+        }
+        
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .problem-card {
+            background-color: var(--light);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+        
+        .problem-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .problem-card i {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .problem-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        /* Solution Section */
+        .solution-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+        }
+        
+        .solution-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        
+        .solution-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        
+        .solution-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .solution-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .solution-text h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .solution-text ul {
+            list-style: none;
+            margin: 30px 0;
+        }
+        
+        .solution-text li {
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .solution-text li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--success);
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        /* Benefits Section */
+        .benefits-section {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .benefit-card {
+            background-color: var(--light);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-card i {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+        
+        .benefit-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        /* Testimonials */
+        .testimonials-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #FF6B00 0%, #FF8E00 100%);
+            color: white;
+        }
+        
+        .testimonials-title {
+            color: white;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .testimonials-slider {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .testimonial {
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 30px;
+            margin: 0 15px;
+            text-align: center;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 100px 0;
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        
+        /* Product Showcase */
+        .product-section {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .product-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .product-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            animation: pulse 2s infinite;
+        }
+        
+        .product-badge {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background-color: var(--primary);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-weight: 700;
+            transform: rotate(15deg);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            animation: bounce 2s infinite;
+        }
+        
+        .product-details {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .product-details h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 20px 0;
+        }
+        
+        .old-price {
+            text-decoration: line-through;
+            color: var(--gray);
+            font-size: 1.8rem;
+            margin-right: 15px;
+        }
+        
+        .bonuses {
+            margin: 30px 0;
+        }
+        
+        .bonus-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .bonus-item i {
+            color: var(--secondary);
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        
+        /* Guarantee Section */
+        .guarantee-section {
+            padding: 60px 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        
+        .guarantee-badge {
+            width: 150px;
+            height: 150px;
+            background-color: var(--secondary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            font-size: 3rem;
+            font-weight: 700;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .guarantee-text {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        
+        /* Results Section */
+        .results-section {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .results-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .result-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .result-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .result-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .result-info {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .result-info h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        /* Reviews Section */
+        .reviews-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+        }
+        
+        .review-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .review-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        
+        .review-author {
+            font-weight: 700;
+        }
+        
+        .review-stars {
+            color: #FFD700;
+            margin: 5px 0;
+        }
+        
+        .review-text {
+            font-style: italic;
+            line-height: 1.7;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .faq-question {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            background-color: var(--light);
+            padding: 20px;
+            display: none;
+        }
+        
+        .faq-answer.show {
+            display: block;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+            text-align: left;
+        }
+        
+        .footer-column h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: var(--primary);
+        }
+        
+        .copyright {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        /* Animations */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0) rotate(15deg); }
+            50% { transform: translateY(-10px) rotate(15deg); }
+        }
+        
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            animation: pulse 1.5s infinite;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .product-badge {
+                right: 0;
+                top: -10px;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .footer-column {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1 class="animate__animated animate__fadeInDown">Descubra o Segredo para Emagrecer de Forma Natural e Definitiva!</h1>
+                    <p class="animate__animated animate__fadeIn animate__delay-1s">Ative seu metabolismo e comece a queimar gordura em até 30 dias - mesmo que você já tenha tentado de tudo antes!</p>
+                    <div class="animate__animated animate__fadeIn animate__delay-2s">
+                        <a href="#oferta" class="btn btn-large">QUERO EMAGRECER AGORA!</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <img src="images/capaprodutoemagrecer.png" alt="Método de Emagrecimento" class="animate__animated animate__fadeIn animate__delay-1s">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Você se identifica com algum desses problemas?</h2>
+            <div class="problem-grid">
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+                    <i>❌</i>
+                    <h3>Metabolismo Lento</h3>
+                    <p>Você sente que seu corpo não responde mais como antes, mesmo com dieta e exercícios.</p>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+                    <i>❌</i>
+                    <h3>Efeito Sanfona</h3>
+                    <p>Consegue emagrecer, mas logo recupera todo o peso perdido (e às vezes até mais).</p>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+                    <i>❌</i>
+                    <h3>Compulsão Alimentar</h3>
+                    <p>Sente aquela vontade incontrolável de comer, especialmente doces e carboidratos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section" id="solucao">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-image" data-aos="fade-right">
+                    <img src="images/capaprodutoemagrecer.png" alt="Solução para Emagrecimento">
+                </div>
+                <div class="solution-text" data-aos="fade-left">
+                    <h2>A Solução Definitiva Para Seu Metabolismo</h2>
+                    <p>Nosso método revolucionário foi desenvolvido para reprogramar seu metabolismo em 3 fases simples:</p>
+                    <ul>
+                        <li>Reset Metabólico - Elimine toxinas e prepare seu corpo</li>
+                        <li>Ativação da Queima - Acelere a queima de gordura</li>
+                        <li>Manutenção Vitalícia - Mantenha o peso ideal para sempre</li>
+                    </ul>
+                    <a href="#oferta" class="btn">QUERO CONHECER O MÉTODO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">O Que Você Vai Alcançar</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                    <i>🔥</i>
+                    <h3>Metabolismo Acelerado</h3>
+                    <p>Seu corpo voltará a queimar gordura de forma eficiente, mesmo em repouso.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                    <i>⚖️</i>
+                    <h3>Peso Ideal</h3>
+                    <p>Alcance e mantenha o peso com que sempre sonhou, sem efeito sanfona.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+                    <i>💪</i>
+                    <h3>Mais Energia</h3>
+                    <p>Acorde revigorado e mantenha-se disposto durante todo o dia.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+                    <i>🧠</i>
+                    <h3>Controle Alimentar</h3>
+                    <p>Diga adeus às compulsões e ao desejo por alimentos prejudiciais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Resultados Reais de Nossos Alunos</h2>
+            <p class="text-center" data-aos="fade-up" data-aos-delay="100">Veja as transformações incríveis de pessoas que aplicaram nosso método</p>
+            
+            <div class="results-grid">
+                <div class="result-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/resultado1.jpg" alt="Resultado 1" class="result-image">
+                    <div class="result-info">
+                        <h3>-18kg em 3 meses</h3>
+                        <p>"Minha vida mudou completamente depois do método!"</p>
+                    </div>
+                </div>
+                <div class="result-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/resultado2.jpg" alt="Resultado 2" class="result-image">
+                    <div class="result-info">
+                        <h3>-12kg em 2 meses</h3>
+                        <p>"Finalmente encontrei uma solução que funciona!"</p>
+                    </div>
+                </div>
+                <div class="result-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/resultado3.jpg" alt="Resultado 3" class="result-image">
+                    <div class="result-info">
+                        <h3>-25kg em 4 meses</h3>
+                        <p>"Nunca imaginei que poderia me sentir tão bem!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- Seção Quem Usou, Aprovou! - Versão Corrigida -->
+<section class="depoimentos-section">
+    <div class="container">
+        <h2 class="section-title">Quem Usou, Aprovou!</h2>
+        
+        <div class="depoimentos-grid">
+            <!-- Depoimento 1 (visível inicialmente) -->
+            <div class="depoimento-card">
+                <div class="avaliacao">
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                </div>
+                <p class="texto-depoimento">"Perdi 18kg em 3 meses seguindo o método. Minha autoestima está renovada e minha saúde melhorou muito!"</p>
+                <div class="autor-depoimento">
+                    <strong>Ana Claudia, 42 anos</strong>
+                </div>
+            </div>
+
+            <!-- Depoimento 2 (visível inicialmente) -->
+            <div class="depoimento-card">
+                <div class="avaliacao">
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                </div>
+                <p class="texto-depoimento">"Depois de anos tentando emagrecer sem sucesso, finalmente encontrei uma solução que funciona. Já eliminei 12kg!"</p>
+                <div class="autor-depoimento">
+                    <strong>Roberto, 38 anos</strong>
+                </div>
+            </div>
+
+            <!-- Depoimentos adicionais (ocultos inicialmente) -->
+            <div class="depoimento-card mais-depoimentos" style="display:none;">
+                <div class="avaliacao">
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                </div>
+                <p class="texto-depoimento">"O melhor investimento que fiz na minha vida. Não só emagreci como aprendi a manter meu peso ideal."</p>
+                <div class="autor-depoimento">
+                    <strong>Juliana, 51 anos</strong>
+                </div>
+            </div>
+
+            <div class="depoimento-card mais-depoimentos" style="display:none;">
+                <div class="avaliacao">
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                    <span class="estrela">★</span>
+                </div>
+                <p class="texto-depoimento">"Comprei sem muitas expectativas, mas foi incrível! Perdi 15kg em 2 meses e mantive o peso. As receitas são deliciosas!"</p>
+                <div class="autor-depoimento">
+                    <strong>Mariana, 35 anos</strong>
+                </div>
+            </div>
+        </div>
+
+        <button id="verMaisBtn" class="btn-ver-mais">Ver mais depoimentos ↓</button>
+    </div>
+</section>
+
+<style>
+    .depoimentos-section {
+        padding: 80px 0;
+        background: linear-gradient(135deg, #FF6B00 0%, #FF8E00 100%);
+        color: white;
+        text-align: center;
+    }
+
+    .depoimentos-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin: 40px auto;
+        max-width: 1000px;
+    }
+
+    .depoimento-card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 30px;
+        transition: all 0.3s ease;
+    }
+
+    .depoimento-card:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    .avaliacao {
+        color: #FFD700;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .texto-depoimento {
+        font-style: italic;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .autor-depoimento {
+        font-weight: bold;
+    }
+
+    .btn-ver-mais {
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        padding: 12px 30px;
+        border-radius: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+    }
+
+    .btn-ver-mais:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const verMaisBtn = document.getElementById('verMaisBtn');
+        const maisDepoimentos = document.querySelectorAll('.mais-depoimentos');
+        let depoimentosVisiveis = false;
+
+        verMaisBtn.addEventListener('click', function() {
+            maisDepoimentos.forEach(depoimento => {
+                if (depoimentosVisiveis) {
+                    depoimento.style.display = 'none';
+                    verMaisBtn.textContent = 'Ver mais depoimentos ↓';
+                } else {
+                    depoimento.style.display = 'block';
+                    verMaisBtn.textContent = 'Ver menos ↑';
+                }
+            });
+            
+            depoimentosVisiveis = !depoimentosVisiveis;
+            
+            // Rolagem suave para os novos depoimentos
+            if (depoimentosVisiveis) {
+                setTimeout(() => {
+                    verMaisBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 300);
+            }
+        });
+    });
+</script>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Avaliações dos Nossos Clientes</h2>
+            
+            <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="review-header">
+                    <img src="images/cliente1.jpg" alt="Cliente 1" class="review-avatar">
+                    <div>
+                        <div class="review-author">Mariana Souza</div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div>5/5 - 15kg perdidos</div>
+                    </div>
+                </div>
+                <p class="review-text">"Comprei o método sem muitas expectativas, mas foi a melhor decisão que tomei. Em 2 meses já havia perdido 15kg e o mais importante: mantive o peso! As receitas são deliciosas e fáceis de fazer, e os exercícios podem ser feitos em casa mesmo. Recomendo para todos que querem emagrecer de forma saudável e definitiva."</p>
+            </div>
+            
+            <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="review-header">
+                    <img src="images/cliente2.jpg" alt="Cliente 2" class="review-avatar">
+                    <div>
+                        <div class="review-author">Carlos Eduardo</div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div>5/5 - 22kg perdidos</div>
+                    </div>
+                </div>
+                <p class="review-text">"Depois de tentar todas as dietas da moda sem sucesso duradouro, encontrei esse método que mudou minha vida. Não se trata apenas de emagrecer, mas de aprender a se alimentar corretamente e acelerar seu metabolismo. Perdi 22kg em 4 meses e nunca mais voltei a engordar. O suporte da equipe é excelente e o material é muito completo."</p>
+            </div>
+            
+            <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="review-header">
+                    <img src="images/cliente3.jpg" alt="Cliente 3" class="review-avatar">
+                    <div>
+                        <div class="review-author">Patrícia Lima</div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div>4.5/5 - 14kg perdidos</div>
+                    </div>
+                </div>
+                <p class="review-text">"Estou no método há 3 meses e já perdi 14kg. O que mais gostei foi que não precisei passar fome ou fazer exercícios extenuantes. O processo é natural e progressivo. Meu metabolismo realmente mudou - agora queimo gordura muito mais facilmente. A única razão para não dar 5 estrelas é que gostaria de mais receitas no bônus, mas no geral é excelente!"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="product-section" id="oferta">
+        <div class="container">
+            <div class="product-container">
+                <div class="product-image" data-aos="fade-right">
+                    <img src="images/capaprodutoemagrecer.png" alt="Produto de Emagrecimento">
+                    <div class="product-badge">OFERTA!</div>
+                </div>
+                <div class="product-details" data-aos="fade-left">
+                    <h2>Método de Emagrecimento Definitivo</h2>
+                    <p>O guia completo para reprogramar seu metabolismo e alcançar o corpo dos seus sonhos de forma natural e saudável.</p>
+                    
+                    <div class="price">
+                        <span class="old-price">R$ 297,00</span>
+                        <span>R$ 4x R$ 6,40</span>
+                    </div>
+                    
+                    <p>Ou R$22,87 á vista!</p>
+                    
+                    <a href="https://go.pepperpay.com.br/off20" class="btn btn-primary btn-large">QUERO COMPRAR AGORA!</a>
+                    
+                    <div class="bonuses">
+                        <h3>Bônus Exclusivos:</h3>
+                        <div class="bonus-item">
+                            <i>🎁</i>
+                            <span>Guia de Receitas Metabólicas (valor: R$ 97,00)</span>
+                        </div>
+                        <div class="bonus-item">
+                            <i>🎁</i>
+                            <span>Plano de Treinos em Casa (valor: R$ 67,00)</span>
+                        </div>
+                        <div class="bonus-item">
+                            <i>🎁</i>
+                            <span>Acesso ao Grupo Exclusivo (valor: R$ 47,00/mês)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Perguntas Frequentes</h2>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="faq-question">
+                    <span>Quanto tempo leva para ver resultados?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>A maioria dos nossos alunos começa a notar diferenças já na primeira semana, com mais energia e redução de medidas. Os resultados mais significativos geralmente aparecem a partir da 2ª semana, quando o metabolismo já está sendo reprogramado.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="faq-question">
+                    <span>Preciso fazer exercícios pesados?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Não! Nosso método inclui um plano de exercícios adaptáveis que podem ser feitos em casa, sem necessidade de equipamentos ou academia. O foco principal está na reprogramação metabólica através da alimentação estratégica.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="faq-question">
+                    <span>Como receberei o produto após a compra?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Imediatamente após a confirmação do pagamento, você receberá um e-mail com acesso à área de membros, onde poderá baixar todos os materiais em formato digital (PDF, vídeos, etc.) e começar imediatamente.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="faq-question">
+                    <span>O método funciona para qualquer pessoa?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Sim, o método foi desenvolvido para funcionar independentemente de idade, gênero ou condição física atual. No entanto, recomendamos que pessoas com condições médicas específicas consultem seu médico antes de iniciar qualquer programa de emagrecimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="guarantee-badge" data-aos="zoom-in">
+                7 DIAS
+            </div>
+            <h2 data-aos="fade-up">Garantia Incondicional de 7 Dias</h2>
+            <p class="guarantee-text" data-aos="fade-up">
+                Se por qualquer motivo você não ficar satisfeito com o produto, basta nos enviar um e-mail dentro de 7 dias após a compra e devolveremos 100% do seu dinheiro, sem questionamentos. Você não tem nada a perder!
+            </p>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Pronto para Transformar Seu Corpo e Sua Saúde?</h2>
+            <p data-aos="fade-up">Clique no botão abaixo e tenha acesso imediato ao método que vai revolucionar sua relação com a balança!</p>
+            <a href="https://go.pepperpay.com.br/off20" class="btn btn-primary btn-large" data-aos="zoom-in">SIM, QUERO EMAGRECER AGORA!</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Sobre o Método</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Como Funciona</a></li>
+                        <li><a href="#">Depoimentos</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Institucional</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Garantia</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <p style="margin-top: 20px;">Nos siga para mais dicas de saúde e emagrecimento!</p>
+                </div>
+            </div>
+            
+            <p class="copyright">
+                © 2023 Método de Emagrecimento Definitivo. Todos os direitos reservados.<br>
+                Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais.
+            </p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5538991004202?text=Gostaria%20de%20saber%20mais%20sobre%20o%20produto%20de%20emagrecimento." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        
+        // Initialize Testimonials Slider
+        $(document).ready(function(){
+            $('.testimonials-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 5000
+            });
+            
+            // Smooth scrolling for anchor links
+            $('a[href*="#"]').on('click', function(e) {
+                e.preventDefault();
+                
+                $('html, body').animate(
+                    {
+                        scrollTop: $($(this).attr('href')).offset().top,
+                    },
+                    500,
+                    'linear'
+                );
+            });
+            
+            // FAQ Accordion
+            $('.faq-question').click(function() {
+                $(this).parent().find('.faq-answer').slideToggle();
+                $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+                $(this).parent().siblings().find('.faq-answer').slideUp();
+                $(this).parent().siblings().find('i').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+            });
+            
+            // Animation for buttons on hover
+            document.querySelectorAll('.btn').forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-3px)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
